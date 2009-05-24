@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include
+END
+COLLADASaxFWLVertices.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLVertices.h
+END
+COLLADASaxFWLInputShared.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLInputShared.h
+END
+COLLADASaxFWLSourceArrayLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLSourceArrayLoader.h
+END
+COLLADASaxFWLLibraryCamerasLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLLibraryCamerasLoader.h
+END
+COLLADASaxFWLInputUnshared.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLInputUnshared.h
+END
+COLLADASaxFWLColladaParserAutoGenPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLColladaParserAutoGenPrivate.h
+END
+COLLADASaxFWLLibraryEffectsLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLLibraryEffectsLoader.h
+END
+COLLADASaxFWLException.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLException.h
+END
+COLLADASaxFWLColladaParserAutoGen.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLColladaParserAutoGen.h
+END
+COLLADASaxFWLIErrorHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLIErrorHandler.h
+END
+COLLADASaxFWLSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLSource.h
+END
+COLLADASaxFWLIError.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLIError.h
+END
+COLLADASaxFWLPrimitiveBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLPrimitiveBase.h
+END
+COLLADASaxFWLGeometryMaterialIdInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLGeometryMaterialIdInfo.h
+END
+COLLADASaxFWLPrerequisites.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLPrerequisites.h
+END
+COLLADASaxFWLLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLLoader.h
+END
+COLLADASaxFWLFileLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLFileLoader.h
+END
+COLLADASaxFWLIFilePartLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLIFilePartLoader.h
+END
+COLLADASaxFWLColladaParserAutoGenEnums.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLColladaParserAutoGenEnums.h
+END
+COLLADASaxFWLNodeLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLNodeLoader.h
+END
+COLLADASaxFWLSaxParserErrorHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLSaxParserErrorHandler.h
+END
+COLLADASaxFWLPHElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLPHElement.h
+END
+COLLADASaxFWLLibraryImagesLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLLibraryImagesLoader.h
+END
+COLLADASaxFWLSaxParserError.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLSaxParserError.h
+END
+COLLADASaxFWLMeshLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLMeshLoader.h
+END
+COLLADASaxFWLLibraryNodesLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLLibraryNodesLoader.h
+END
+COLLADASaxFWLArrayElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLArrayElement.h
+END
+COLLADASaxFWLLibraryMaterialsLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLLibraryMaterialsLoader.h
+END
+COLLADASaxFWLFilePartLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLFilePartLoader.h
+END
+COLLADASaxFWLTechniqueCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLTechniqueCommon.h
+END
+COLLADASaxFWLMeshPrimitiveInputList.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLMeshPrimitiveInputList.h
+END
+COLLADASaxFWLAccessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLAccessor.h
+END
+COLLADASaxFWLLibraryLightsLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLLibraryLightsLoader.h
+END
+COLLADASaxFWLAssetLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLAssetLoader.h
+END
+COLLADASaxFWLColladaParserAutoGenAttributes.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLColladaParserAutoGenAttributes.h
+END
+COLLADASaxFWLStableHeaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLStableHeaders.h
+END
+COLLADASaxFWLVisualSceneLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLVisualSceneLoader.h
+END
+COLLADASaxFWLPolygons.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLPolygons.h
+END
+COLLADASaxFWLPolylist.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLPolylist.h
+END
+COLLADASaxFWLGeometryLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADASaxFrameworkLoader/include/COLLADASaxFWLGeometryLoader.h
+END

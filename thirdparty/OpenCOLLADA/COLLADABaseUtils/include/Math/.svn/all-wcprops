@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/Math
+END
+COLLADABUMathMatrix4.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/Math/COLLADABUMathMatrix4.h
+END
+COLLADABUMathUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/Math/COLLADABUMathUtils.h
+END
+COLLADABUMathPrerequisites.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/Math/COLLADABUMathPrerequisites.h
+END
+COLLADABUMathQuaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/Math/COLLADABUMathQuaternion.h
+END
+COLLADABUMathVector3.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/Math/COLLADABUMathVector3.h
+END
+COLLADABUMathMatrix3.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/Math/COLLADABUMathMatrix3.h
+END

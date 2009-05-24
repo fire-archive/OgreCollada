@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include
+END
+COLLADABUPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUPlatform.h
+END
+COLLADABUPrerequisites.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUPrerequisites.h
+END
+COLLADABUStableHeaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUStableHeaders.h
+END
+COLLADABUStringUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUStringUtils.h
+END
+COLLADABUIDList.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUIDList.h
+END
+COLLADABUHashFunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUHashFunctions.h
+END
+COLLADABUNativeString.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUNativeString.h
+END
+COLLADABUException.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUException.h
+END
+COLLADABUURI.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUURI.h
+END
+COLLADABUUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUUtils.h
+END
+COLLADABUHashMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/ogrecollada/!svn/ver/87/branches/sax_based/COLLADABaseUtils/include/COLLADABUHashMap.h
+END
