@@ -1,5 +1,0 @@
-<!DOCTYPE RCC><RCC version="1.0">
- <qresource>
-     <file alias="OgreCOLLADAViewer-ui">forms/OgreCOLLADAViewer.ui</file>
- </qresource>
- </RCC>

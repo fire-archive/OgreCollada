@@ -1,34 +1,0 @@
-9
-
-dir
-355
-https://opencollada.svn.sourceforge.net/svnroot/opencollada/trunk/Externals/UTF
-https://opencollada.svn.sourceforge.net/svnroot/opencollada
-
-
-
-2008-11-25T15:20:50.123770Z
-196
-robertwuerfel
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-bdddf8b5-0515-0410-9f3b-db498dd10dd0
-
-include
-dir
-
-src
-dir
-
