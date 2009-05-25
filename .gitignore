@@ -1,0 +1,7 @@
+build
+lib
+*.make
+tools/bin/OgreCOLLADA*
+tools/bin/OgreCollada*
+*.log
+*.bak
