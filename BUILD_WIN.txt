@@ -10,4 +10,4 @@ A short how to build this project under windows
 - open the sln file
 - set target to DebugStatic (the only target that has been tested)
 - build OgreColladaConverter (OgreCOLLADAViewer is currently not supported)
-- the binary will be moved to tools/bin
+- the binary will be moved to tools/bin you may launch it from there
