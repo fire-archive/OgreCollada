@@ -1,2 +1,2 @@
-premake vs2002 
+premake4 vs2002 
 pause

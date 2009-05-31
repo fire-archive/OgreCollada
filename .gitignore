@@ -1,7 +1,13 @@
 build
+scripts/premake/*.vcproj
+scripts/premake/*.user
 lib
 *.make
-tools/bin/OgreCOLLADA*
-tools/bin/OgreCollada*
 *.log
 *.bak
+tools/bin/OgreCOLLADA*
+tools/bin/OgreCollada*
+tools/bin/ogrecollada*
+tools/bin/*.dll
+tools/bin/*.mesh
+tools/bin/output

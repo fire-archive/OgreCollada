@@ -25,7 +25,11 @@ THE SOFTWARE.
 #ifndef __OGRECOLLADA_WRITER_H__
 #define __OGRECOLLADA_WRITER_H__
 
+#ifndef WIN32
 #include "OGRE/Ogre.h"
+#else
+#include "Ogre.h"
+#endif
 
 #include "COLLADAFWIWriter.h"
 #include "COLLADAFWFileInfo.h"

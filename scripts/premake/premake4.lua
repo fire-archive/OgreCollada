@@ -1,6 +1,6 @@
 verbose = 1
 -- A solution contains projects, and defines the available configurations
-solution "MyApplication"
+solution "OgreCOLLADA"
 	configurations { "DebugStatic", "ReleaseStatic", "DebugShared", "ReleaseShared" }
 	language "C++"
 	rootpath = "../../"
@@ -10,6 +10,9 @@ solution "MyApplication"
 		location ( path.join(rootpath, path.join("build", _ACTION) ) )
 	end
 
+	if os.get() == "windows" then
+		defines("WIN32");
+	end
 	configuration { "*Static" }
 		kind "StaticLib"
 	configuration { "*Shared" }
@@ -29,12 +32,21 @@ solution "MyApplication"
 		links { "boost_system", "boost_filesystem", "boost_regex"}
 		basepath = path.join(rootpath, "thirdparty/OpenCOLLADA")
 		files { path.join(basepath, "COLLADABaseUtils/include/**.h"),  path.join(basepath, "COLLADABaseUtils/src/**.cpp"),
-						path.join(basepath, "COLLADABaseUtils/include/UTF/**.h"),  path.join(basepath, "COLLADABaseUtils/src/UTF/**.c") 
+						path.join(basepath, "COLLADABaseUtils/include/UTF/**.h"),  path.join(basepath, "COLLADABaseUtils/src/UTF/**.c"),
+						path.join(basepath, "COLLADABaseUtils/include/Math/**.h"),  path.join(basepath, "COLLADABaseUtils/src/Math/**.cpp") 
 				}
 		includedirs { 
 						path.join(basepath, "COLLADABaseUtils/include"),
 						path.join(basepath, "COLLADABaseUtils/include/UTF"), 
+						path.join(basepath, "COLLADABaseUtils/include/Math"),
 				}
+		configuration { "windows" }
+                    includedirs { 
+						"$(BOOST_ROOT)"
+			}
+                    libdirs {
+						"$(BOOST_ROOT)/lib"
+                    	}
 		configuration { "Debug*" }
 			targetname ( "COLLADABaseUtils_d" )
 		configuration {"Release*"}
@@ -57,8 +69,20 @@ solution "MyApplication"
 				}
 		includedirs {
 						path.join(basepath, "GeneratedSaxParser/include"),
+						path.join(basepath, "COLLADABaseUtils/include"),
 				}
-		configuration { "Debug*" }
+		configuration { "linux", "gmake" }
+                    includedirs { 
+						"/usr/include/libxml2",
+			}
+		configuration { "windows" }
+                    includedirs { 
+						"$(OPENCOLLADA_HOME)/Externals/LibXML/include",
+			}
+                    libdirs {
+                    				"$(OPENCOLLADA_HOME)/Externals/LibXML/bin/win/win32",
+                    	}
+                configuration { "Debug*" }
 			targetname ( "GeneratedSaxParser_d" )
 		configuration {"Release*"}
 			targetname ( "GeneratedSaxParser" )
@@ -97,8 +121,16 @@ solution "MyApplication"
 						path.join(basepath, "COLLADAFramework/include"),
 						path.join(basepath, "GeneratedSaxParser/include"),
 						path.join(basepath, "COLLADABaseUtils/include"),
-						"/usr/include/libxml2"
 				}
+		configuration { "linux", "gmake" }
+                    includedirs { 
+						"/usr/include/libxml2",
+			}
+		configuration { "windows" }
+                    includedirs { 
+						"$(OPENCOLLADA_HOME)/Externals/LibXML/include",
+						"$(BOOST_ROOT)"
+			}
 		configuration { "Debug*" }
 			targetname ( "COLLADASaxFrameworkLoader_d" )
 		configuration {"Release*"}
@@ -126,8 +158,12 @@ solution "MyApplication"
 						path.join(basepath, "COLLADASaxFrameworkLoader/include"),
 						path.join(basepath, "GeneratedSaxParser/include")
 					}
+		configuration { "windows" }
+                    includedirs { 
+			    "$(OGRE_HOME)/include"
+			}
 		configuration { "Debug*" }
-			targetname ( "OgreCOLLADA_d" )
+                    targetname ( "OgreCOLLADA_d" )
 		configuration { "Release*" }
 			targetname ( "OgreCOLLADA" )
 
@@ -143,7 +179,7 @@ solution "MyApplication"
 			linkoptions { "`pkg-config --libs OGRE`" }
 			linkoptions { "`pkg-config --libs libxml-2.0`" }
 		configuration {}
-		links {"OgreCOLLADA", "COLLADASaxFrameworkLoader", "GeneratedSaxParser", "COLLADAFramework", "COLLADABaseUtils", "boost_regex" }
+		links {"OgreCOLLADA", "COLLADASaxFrameworkLoader", "GeneratedSaxParser", "COLLADAFramework", "COLLADABaseUtils" }
 		kind "ConsoleApp"
 		files { 
 				path.join(rootpath, "tools/Converter/src/**.cpp")
@@ -156,6 +192,32 @@ solution "MyApplication"
 				path.join(basepath, "COLLADASaxFrameworkLoader/include"),
 				path.join(rootpath, "include")
 				}
+		configuration { "linux" }
+		    links {
+		              "boost_regex"
+		          }
+
+		configuration { "windows" }
+                    includedirs { 
+			    "$(OGRE_HOME)/include"
+			}
+                    libdirs {
+                                "$(BOOST_ROOT)/lib",
+                                "$(OGRE_HOME)/lib",
+                                "$(OPENCOLLADA_HOME)/Externals/LibXML/bin/win/win32"
+                            }
+		configuration { "windows", "Debug*" }
+                    links {
+                              "OgreMain_d",
+                              "LibXML-d"
+                          }
+
+		configuration { "windows", "Release*" }
+                    links {
+                              "OgreMain",
+                              "LibXML"
+                          }
+
 		configuration { "Debug*" }
 -- 			targetname ( "OgreColladaConverter_d" )
 		configuration {"Release*"}
@@ -165,11 +227,9 @@ solution "MyApplication"
 	-------------------------------------------------------------------------------
 	-- 	OgreColladaConverter command line utility
 	project "OgreCOLLADAViewer"
-		prebuildcommands("rcc " .. path.join(rootpath, "tools/Data/") .. "OgreCOLLADAViewer.qrc -o " .. path.join(rootpath,"tools/Viewer/include/") .. "OgreCOLLADAViewer.res.h" );
-		prebuildcommands("uic " .. path.join(rootpath, "tools/Data/forms/") .. "OgreCOLLADAViewer.ui -o " .. path.join(rootpath,"tools/Viewer/include/") .. "OgreCOLLADAViewer.ui.h" );
+		prebuildcommands("rcc " .. path.join(rootpath, "tools/Data/") .. "OgreCOLLADAViewer.qrc -o " .. path.join(rootpath,"tools/Viewer/include/") .. "OgreCOLLADAViewer.ui.h" );
 		prebuildcommands("moc " .. path.join(rootpath, "tools/Viewer/include/") .. "TestWidget.h -o " .. path.join(rootpath,"tools/Viewer/src/") .. "TestWidget.moc.cpp" )
 		prebuildcommands("moc " .. path.join(rootpath, "tools/Viewer/include/") .. "QOgreWidget.h -o " .. path.join(rootpath,"tools/Viewer/src/") .. "QOgreWidget.moc.cpp" )
-		prebuildcommands("moc " .. path.join(rootpath, "tools/Viewer/include/") .. "OgreCOLLADAViewer.h -o " .. path.join(rootpath,"tools/Viewer/src/") .. "OgreCOLLADAViewer.moc.cpp" )
 		targetdir ( path.join(rootpath, path.join("tools","bin")) )
 		configuration { "linux", "gmake" }
 			--retrieve Ogre and libXML2 build options from pkg-config

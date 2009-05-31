@@ -1,2 +1,2 @@
-premake vs2008 
+premake4 vs2008 
 pause

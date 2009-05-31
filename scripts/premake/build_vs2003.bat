@@ -1,2 +1,2 @@
-premake vs2003 
+premake4 vs2003 
 pause

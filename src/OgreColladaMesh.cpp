@@ -24,8 +24,13 @@ THE SOFTWARE.
 
 #include <strstream>
 
+#ifndef WIN32
 #include "OGRE/Ogre.h"
 #include "OGRE/OgreDefaultHardwareBufferManager.h"
+#else
+#include "Ogre.h"
+#include "OgreDefaultHardwareBufferManager.h"
+#endif
 
 #include "COLLADAFWTriangles.h"
 #include "OgreColladaMesh.h"

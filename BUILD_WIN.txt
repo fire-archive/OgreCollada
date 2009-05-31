@@ -1,0 +1,13 @@
+A short how to build this project under windows
+- download boost from boost.org (tested with 1.35.0)
+- set environment variable BOOST_ROOT
+- check out OpenCOLLADA from SVN  (https://opencollada.svn.sourceforge.net/svnroot/opencollada/trunk)
+- set environment variable OPENCOLLADA_HOME
+- build libxml in the OpenCOLLADA source tree (by using %OPENCOLLADA_HOME%\Externals\LibXML\scripts\LibXML.vcproj)
+- download and install OGRE SDK (this will set OGRE_HOME)
+- run scripts/premake/build_vs<your version>.bat
+    this will generate vcproj files in scripts/premake/ and a sln file in build/vs<your version>/
+- open the sln file
+- set target to DebugStatic (the only target that has been tested)
+- build OgreColladaConverter (OgreCOLLADAViewer is currently not supported)
+- the binary will be moved to tools/bin
